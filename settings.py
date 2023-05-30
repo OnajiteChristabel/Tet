@@ -1,0 +1,12 @@
+import pygame as pg
+import tetris
+FPS = 60
+FIELD_COLOR = (46, 60, 51)
+BG_COLOR = (50, 41 ,21)
+
+
+TILE_SIZE = 50
+FIELD_W = 10
+FIELD_H = 20
+FIELD_SIZE = FIELD_H * FIELD_W
+FIELD_RES = FIELD_W * TILE_SIZE, FIELD_H * TILE_SIZE
